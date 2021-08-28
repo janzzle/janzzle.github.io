@@ -1,0 +1,13 @@
+  # - name: HOME
+  #   link: /
+  # - name: PROJECT
+  #   link: /project
+  # - name: POSTS
+  #   link: /posts
+
+- title: HOME
+  url: /
+- title: PROJECTS
+  url: /projects/
+- title: POSTS
+  url: /posts/

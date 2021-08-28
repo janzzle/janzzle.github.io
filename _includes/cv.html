@@ -1,0 +1,42 @@
+<div class="cv-picture-wrap">
+    <img class="cv-picture" src="/assets/images/picture_me.jpg" alt="달리는 내 사진">
+</div>
+
+<br>
+<br>
+
+<section class="project-list">
+    <div class="project">
+        <p>
+            <span>
+                &#128193;
+            </span>
+            &nbsp; Projects</p>
+        </div>
+    {% include project-list.html%}
+
+</section>
+
+
+
+<br>
+<br>
+
+<section class="skill">
+    <div class="resume-info">
+        <p class="second-label">
+            <span class="label-emoji">
+                &#128736;
+            </span>
+            &nbsp; Skills
+        </p>
+    </div>    
+    <ul>
+        {% for skills-list in site.data.skills-list %}
+            <li class="skill-name">
+                {{ skills-list.name }}
+            </li>
+        {% endfor %}
+    </ul>
+</section>
+

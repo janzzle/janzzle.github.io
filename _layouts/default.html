@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/microsoft/209/black-sun-with-rays_2600.png">
+   
+  </head>
+  <body>
+
+    <header class="header">
+      {% include head.html %}
+      {% include navigation.html %}
+      {% include sidebar.html %}
+
+      <div class="wrap">
+        <div class="masthead">
+          <div class="container">
+            <h3 class="masthead-title">
+              <small>{{ site.tagline }}</small>
+            </h3>
+          </div>
+        </div>
+    </header>
+
+    <section class="section01">
+    {{ content }}
+
+    </section>
+    <footer class="footer">
+      {% include footer.html %}
+    </footer>
+    
+ 
+    
+  </body>
+</html>
