@@ -580,6 +580,11 @@ a.pagination-item:hover {
 }
 .archive-item {
   margin-left: 5px;
+  padding-bottom: 20px;
+}
+
+.post-date{
+  display: inline-block;
 }
 .post-tags {
   float: left;
@@ -590,8 +595,13 @@ a.pagination-item:hover {
   margin: 0 10px 0 0;
   padding: 5px 0 0 0;
 }
-.post .tag li{
+.post .tag{
   list-style: none;
+  display: inline-block;
+  padding-left: 7px;
+}
+.post .tag li{
+  display: inline-block;
 }
 .post .tag li > a {
   margin: 3px 3px 3px 0;

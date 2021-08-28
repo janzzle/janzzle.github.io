@@ -10,13 +10,18 @@ layout: default
   <ul class="tag">
       {% for tag in page.tags %}
       <li>
-        <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
+        <!-- <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}"> -->
+        <a href="{{ root_url }}{{ post.url }}/tags#{{ tag }}"> 
           {{ tag }}
+
         </a>
       </li>
       {% endfor %}
     </ul>
-  {{ content }}
+  
+</div>
+<div class="post-content-wrap">
+    {{ content }}
 </div>
 
 {% if site.related_posts.size >= 1 %}
@@ -35,4 +40,21 @@ layout: default
     {% endfor %}
   </ul>
 </div>
+<div class="pagination">
+    {% if page.previous.url %}
+      <span class="prev" >
+          <a href="{{ site.url }}{{ site.baseurl }}{{ page.previous.url }}">
+            &#xE000; {{ page.previous.title }}
+          </a>
+      </span>
+    {% endif %}
+    {% if page.next.url %}
+      <span class="next" >
+          <a href="{{ site.url }}{{ site.baseurl }}{{ page.next.url }}">
+            {{ page.next.title }} &#xE001;
+          </a>
+      </span>
+    {% endif %}
+  </div>
+
 {% endif %}

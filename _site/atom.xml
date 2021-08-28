@@ -4,7 +4,7 @@
  <title>Jaekyu Kong</title>
  <link href="janzzle.github.io/atom.xml" rel="self"/>
  <link href="janzzle.github.io/"/>
- <updated>2021-08-29T01:41:26+09:00</updated>
+ <updated>2021-08-29T02:41:49+09:00</updated>
  <id>janzzle.github.io</id>
  <author>
    <name>Jaekyu Kong</name>
@@ -13,404 +13,56 @@
 
  
  <entry>
-   <title>Banana is what?</title>
-   <link href="janzzle.github.io/spring/bananas/"/>
+   <title>2. 코드 구조화 Bottom-Up 방식 (1)</title>
+   <link href="janzzle.github.io/java/Java-2.-%EC%BD%94%EB%93%9C-%EA%B5%AC%EC%A1%B0%ED%99%94-Bottom-Up-%EB%B0%A9%EC%8B%9D-(1)/"/>
    <updated>2021-08-28T00:00:00+09:00</updated>
-   <id>janzzle.github.io/spring/bananas</id>
-   <content type="html">&lt;h3 id=&quot;banana&quot;&gt;Banana&lt;/h3&gt;
-&lt;p&gt;A banana is an edible fruit – botanically a berry – produced by several kinds
-of large herbaceous flowering plants in the genus Musa.&lt;/p&gt;
-
-&lt;p&gt;In some countries, bananas used for cooking may be called “plantains”,
-distinguishing them from dessert bananas. The fruit is variable in size, color,
-and firmness, but is usually elongated and curved, with soft flesh rich in
-starch covered with a rind, which may be green, yellow, red, purple, or brown
-when ripe.&lt;/p&gt;
+   <id>janzzle.github.io/java/[Java]-2.-코드-구조화-Bottom-Up-방식-(1)</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;! 전역 변수로 전환 시 static 사용!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;! 메서드 배우기 전까지 함수는 static 붙여주기&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;! Scan은 굳이 공유할 필요가 없기 때문에 전역 변수로 사용 X&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 </content>
  </entry>
  
  <entry>
-   <title>Banana is what? 2</title>
-   <link href="janzzle.github.io/spring/bananas-copy/"/>
-   <updated>2021-08-28T00:00:00+09:00</updated>
-   <id>janzzle.github.io/spring/bananas copy</id>
-   <content type="html">&lt;h3 id=&quot;banana&quot;&gt;Banana&lt;/h3&gt;
-&lt;p&gt;A banana is an edible fruit – botanically a berry – produced by several kinds
-of large herbaceous flowering plants in the genus Musa.&lt;/p&gt;
+   <title>1. 구조적인 프로그래밍이란</title>
+   <link href="janzzle.github.io/java/Java-1.-%EA%B5%AC%EC%A1%B0%EC%A0%81%EC%9D%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%B4%EB%9E%80/"/>
+   <updated>2021-08-21T00:00:00+09:00</updated>
+   <id>janzzle.github.io/java/[Java]-1.-구조적인-프로그래밍이란</id>
+   <content type="html">&lt;h2 id=&quot;구조적-프로그래밍&quot;&gt;구조적 프로그래밍&lt;/h2&gt;
 
-&lt;p&gt;In some countries, bananas used for cooking may be called “plantains”,
-distinguishing them from dessert bananas. The fruit is variable in size, color,
-and firmness, but is usually elongated and curved, with soft flesh rich in
-starch covered with a rind, which may be green, yellow, red, purple, or brown
-when ripe.&lt;/p&gt;
+&lt;dl&gt;
+  &lt;dt&gt;: 절차로만 이루어진 프로그램을 나누어서 만드는 것&lt;/dt&gt;
+  &lt;dd&gt;나누어진 코드 속에서 구조가 만들어짐&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h3 id=&quot;1-구조적-프로그래밍의-방식&quot;&gt;1. 구조적 프로그래밍의 방식&lt;/h3&gt;
+
+&lt;p&gt;1) 기존의 절차로 이루어진 프로그램을 잘라서 구조를 만들어 가는 것 
+→ Bottom up 방식&lt;/p&gt;
+
+&lt;p&gt;2) 코드가 없는 상태에서 구조부터 만들면서 코드를 만들어 가는 것
+→ Top down 방식&lt;/p&gt;
+
+&lt;p&gt;프로그램 설계를 배운다면 Top-down 방식으로 시작해야하지만, 
+코드를 나누는 방법부터 연습하기 위해 Bottom-Up으로 학습 시작&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
-   <title>Apple is What? 2</title>
-   <link href="janzzle.github.io/java/apples/"/>
-   <updated>2018-08-21T00:00:00+09:00</updated>
-   <id>janzzle.github.io/java/apples</id>
-   <content type="html">&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-
-&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Apple is What?</title>
-   <link href="janzzle.github.io/java/apples-copy/"/>
-   <updated>2018-08-21T00:00:00+09:00</updated>
-   <id>janzzle.github.io/java/apples copy</id>
-   <content type="html">&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-
-&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Apple is What?</title>
-   <link href="janzzle.github.io/java/apples-copy-9/"/>
-   <updated>2018-08-21T00:00:00+09:00</updated>
-   <id>janzzle.github.io/java/apples copy 9</id>
-   <content type="html">&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-
-&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Apple is What?</title>
-   <link href="janzzle.github.io/java/apples-copy-8/"/>
-   <updated>2018-08-21T00:00:00+09:00</updated>
-   <id>janzzle.github.io/java/apples copy 8</id>
-   <content type="html">&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-
-&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Apple is What?</title>
-   <link href="janzzle.github.io/java/apples-copy-7/"/>
-   <updated>2018-08-21T00:00:00+09:00</updated>
-   <id>janzzle.github.io/java/apples copy 7</id>
-   <content type="html">&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-
-&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Apple is What?</title>
-   <link href="janzzle.github.io/java/apples-copy-6/"/>
-   <updated>2018-08-21T00:00:00+09:00</updated>
-   <id>janzzle.github.io/java/apples copy 6</id>
-   <content type="html">&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-
-&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Apple is What?</title>
-   <link href="janzzle.github.io/java/apples-copy-5/"/>
-   <updated>2018-08-21T00:00:00+09:00</updated>
-   <id>janzzle.github.io/java/apples copy 5</id>
-   <content type="html">&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-
-&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Apple is What?</title>
-   <link href="janzzle.github.io/java/apples-copy-4/"/>
-   <updated>2018-08-21T00:00:00+09:00</updated>
-   <id>janzzle.github.io/java/apples copy 4</id>
-   <content type="html">&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-
-&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Apple is What?</title>
-   <link href="janzzle.github.io/java/apples-copy-3/"/>
-   <updated>2018-08-21T00:00:00+09:00</updated>
-   <id>janzzle.github.io/java/apples copy 3</id>
-   <content type="html">&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-
-&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Apple is What?</title>
-   <link href="janzzle.github.io/java/apples-copy-2/"/>
-   <updated>2018-08-21T00:00:00+09:00</updated>
-   <id>janzzle.github.io/java/apples copy 2</id>
-   <content type="html">&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-
-&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Apple is What?</title>
-   <link href="janzzle.github.io/java/apples-copy-15/"/>
-   <updated>2018-08-21T00:00:00+09:00</updated>
-   <id>janzzle.github.io/java/apples copy 15</id>
-   <content type="html">&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-
-&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Apple is What?</title>
-   <link href="janzzle.github.io/java/apples-copy-14/"/>
-   <updated>2018-08-21T00:00:00+09:00</updated>
-   <id>janzzle.github.io/java/apples copy 14</id>
-   <content type="html">&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-
-&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Apple is What?</title>
-   <link href="janzzle.github.io/java/apples-copy-13/"/>
-   <updated>2018-08-21T00:00:00+09:00</updated>
-   <id>janzzle.github.io/java/apples copy 13</id>
-   <content type="html">&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-
-&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Apple is What?</title>
-   <link href="janzzle.github.io/java/apples-copy-12/"/>
-   <updated>2018-08-21T00:00:00+09:00</updated>
-   <id>janzzle.github.io/java/apples copy 12</id>
-   <content type="html">&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-
-&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Apple is What?</title>
-   <link href="janzzle.github.io/java/apples-copy-11/"/>
-   <updated>2018-08-21T00:00:00+09:00</updated>
-   <id>janzzle.github.io/java/apples copy 11</id>
-   <content type="html">&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-
-&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Apple is What?</title>
-   <link href="janzzle.github.io/java/apples-copy-10/"/>
-   <updated>2018-08-21T00:00:00+09:00</updated>
-   <id>janzzle.github.io/java/apples copy 10</id>
-   <content type="html">&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
-
-&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
-
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;
+   <title>스프링이란?</title>
+   <link href="janzzle.github.io/spring/Spring-%EC%8A%A4%ED%94%84%EB%A7%81%EC%9D%B4%EB%9E%80/"/>
+   <updated>2018-08-24T00:00:00+09:00</updated>
+   <id>janzzle.github.io/spring/[Spring]-스프링이란</id>
+   <content type="html">&lt;h3 id=&quot;spring이란&quot;&gt;Spring이란&lt;/h3&gt;
+&lt;p&gt;아직 잘 모른다.&lt;/p&gt;
 </content>
  </entry>
  

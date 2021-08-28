@@ -69,6 +69,10 @@ color : inherit;
 .skill-name{
     list-style: circle;
 }
+/* post part */
+.post-content-wrap{
+    padding-bottom: 20px;
+}
 
 /****************************************** flexible */
 
